@@ -7,7 +7,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solr1 {
+public class Solr1 {//SOUTIK BERA SOLR PROJECT
     public static void main(String[] args) throws IOException {
         String solrUrl = "http://localhost:8983/solr/Project1"; // Solr core URL
         SolrClient solrClient = new HttpSolrClient.Builder(solrUrl).build();
